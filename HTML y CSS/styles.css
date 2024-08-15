@@ -1,0 +1,128 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pageHeader {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #2980b9;
+}
+
+.pageHeader nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pageHeader nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.pageHeader nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pageHeader nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Main {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Más cuadrados */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+.content article {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #3498db;
+    font-size: 24px;
+    text-align: center; /* Títulos centrados */
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+aside.top-sidebar, aside.bottom-sidebar {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px; /* Más cuadrados */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+aside h2 {
+    color: #3498db;
+    font-size: 20px;
+    text-align: center; /* Título centrado */
+}
+
+aside ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+.featured {
+    padding: 10px;
+    background-color: #dfe6e9;
+    border-radius: 5px; /* Más cuadrados */
+    border: 1px solid #bdc3c7;
+}
+
+.pageFooter {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #2980b9;
+    position: fixed; /* Siempre al fondo */
+    bottom: 0;
+    width: 100%;
+}
+
+.pageFooter p {
+    margin: 0;
+    font-size: 14px;
+}
